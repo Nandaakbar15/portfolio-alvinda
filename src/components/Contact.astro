@@ -1,0 +1,57 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section text="Contacts" href="contact">
+  {
+    (
+      <div class="sticky mb-12 rounded-2xl border border-neutral/20 bg-black">
+        <div class="bg-difu relative z-[1] grid min-h-[480px] w-full grid-rows-2 rounded-2xl bg-[#1c232d]/85 before:absolute before:inset-0 before:z-[-1] before:rounded-2xl before:bg-[url(/raja.png)] before:bg-[length:128px] before:bg-repeat before:opacity-[5%] before:content-[''] sm:grid-cols-2 sm:grid-rows-1">
+          <div class="px-6 pt-12">
+            <h3 class="mb-5 font-serif text-3xl font-medium text-primary">
+              Contact Me
+            </h3>
+            <form class="mx-auto mt-5 max-w-sm">
+              <div class="mb-5">
+                <label
+                  for="email"
+                  class="text-heading mb-2.5 block text-sm font-medium text-white"
+                >
+                  Your email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  class="border-default-medium text-heading rounded-base focus:ring-brand focus:border-brand block w-full border bg-slate-300 px-3 py-2.5 text-sm text-black shadow-xs"
+                  placeholder="name@flowbite.com"
+                  required
+                />
+              </div>
+              <div class="mb-5">
+                <label
+                  for="password"
+                  class="text-heading mb-2.5 block text-sm font-medium text-white"
+                >
+                  Your password
+                </label>
+                <input
+                  type="password"
+                  id="password"
+                  class="border-default-medium text-heading rounded-base focus:ring-brand focus:border-brand block w-full border bg-slate-300 px-3 py-2.5 text-sm text-black shadow-xs"
+                  placeholder="••••••••"
+                  required
+                />
+              </div>
+              <button
+                type="submit"
+                class="hover:bg-brand-strong focus:ring-brand-medium box-border rounded-2xl border border-transparent bg-sky-600 px-4 py-2.5 text-sm leading-5 font-medium text-white shadow-xs focus:ring-4 focus:outline-none"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    )
+  }
+</Section>
