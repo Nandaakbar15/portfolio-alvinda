@@ -64,7 +64,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: [
         "Developing a company profile website application using Next.js",
         "Create an admin dashboard and landing page for regular users with a modern and user-friendly interface with Tailwind CSS.",
-        "Menggunakan PostsGreSQL sebagai database untuk mengelola data perusahaan pada halaman admin",
+        "Using PostsGreSQL as a database to manage company data on the admin page",
       ],
     },
     {
@@ -105,6 +105,14 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://github.com/Nandaakbar15/aizawagamersniastore",
       image: "/projects/Screenshot project website Aizawa gamerstore.PNG",
     },
+    {
+      name: "Animeku Website",
+      summary:
+        "A personal anime list website using Express.js, Axios, and HTML templates to display anime lists by category.",
+      linkPreview: "/",
+      linkSource: "https://github.com/Nandaakbar15/AnimeKuWebsite",
+      image: "/projects/Screenshot project Animeku Website.PNG",
+    },
   ],
   about: {
     description: `
@@ -141,5 +149,3 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
 };
-
-// #5755ff
