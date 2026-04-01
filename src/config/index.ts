@@ -37,7 +37,7 @@ export const SITE_CONTENT: SiteContent = {
   experience: [
     {
       company: "PT. Supernova Palapa Nusantara",
-      position: "Backend Engineer",
+      position: "Backend Engineer - Internship",
       startDate: "Feb 2024",
       endDate: "Aug 2024",
       summary: [
@@ -48,17 +48,18 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "CV. Gilang Kencana Mulya",
-      position: "Web Developer",
+      position: "Web Developer - Freelance",
       startDate: "July 2024",
       endDate: "Sep 2024",
       summary: [
-        "Developing website applications with Laravel for contractor, personnel, and company project management.",
-        "Create an admin dashboard with a user-friendly interface using Bootstrap to simplify internal management.",
+        "Developing a company profile website application using Next.js",
+        "Create data structures for personnel/team data, and company portfolios using Typescript",
+        "Using Tailwind CSS for landing pages with a modern and user-friendly interface",
       ],
     },
     {
       company: "PT. Moonlight Technology",
-      position: "Full Stack Web Developer",
+      position: "Full Stack Web Developer - Internship",
       startDate: "July 2025",
       endDate: "Aug 2025",
       summary: [
@@ -69,7 +70,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "PT. Minilemon Technology",
-      position: "Full Stack Web Developer",
+      position: "Full Stack Web Developer - Internship",
       startDate: "Sept 2025",
       endDate: "Feb 2026",
       summary: [
@@ -138,6 +139,7 @@ export const SITE_CONTENT: SiteContent = {
         { name: "NodeJS", image: "/tech-logo/nodejs-logo.png" },
         { name: "NestJS", image: "/tech-logo/nestjs.svg" },
         { name: "React", image: "/tech-logo/React.js-logo.png" },
+        { name: "Next.js", image: "/tech-logo/Next.js-logo.png" },
       ],
     },
     {
