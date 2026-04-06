@@ -22,8 +22,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/Nandaakbar15" },
     { text: "Instagram", href: "https://www.instagram.com/alvindaakbar1933/" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/my-portfolio-thumbnail.png",
+  canonicalURL: "https://portfolio-alvinda.vercel.app/",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -82,6 +82,14 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
   projects: [
+    {
+      name: "Website-Based Playstation Service Application",
+      summary:
+        "Website-based Playstation repair or service application using Laravel, Bootstrap and MySQL",
+      linkPreview: "/",
+      linkSource: "https://github.com/Nandaakbar15/tugasakhir_laravel",
+      image: "/projects/Screenshot project Tugas Akhir.jpg",
+    },
     {
       name: "Ps Go App",
       summary:
@@ -147,6 +155,7 @@ export const SITE_CONTENT: SiteContent = {
       items: [
         { name: "MySQL", image: "/tech-logo/mysql-logo.png" },
         { name: "MongoDB", image: "/tech-logo/MongoDB-logo.png" },
+        { name: "PostgreSQL", image: "/tech-logo/postgresql_logo.png" },
       ],
     },
   ],
