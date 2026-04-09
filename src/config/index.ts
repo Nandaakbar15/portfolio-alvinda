@@ -91,6 +91,15 @@ export const SITE_CONTENT: SiteContent = {
       image: "/projects/Screenshot project Tugas Akhir.jpg",
     },
     {
+      name: "Mini Job Tracker App",
+      summary:
+        "Mini job tracker website to track candidate status or applicants using React.js, Express.js, Tailwind CSS and MySQL",
+      linkPreview: "/",
+      linkSource:
+        "https://github.com/Nandaakbar15/mini-job-tracker-app-frontend.git",
+      image: "/projects/Screenshot Mini Job Tracker App.png",
+    },
+    {
       name: "Ps Go App",
       summary:
         "Laravel & React based PS rental and booking application, equipped with admin dashboard and booking system.",
