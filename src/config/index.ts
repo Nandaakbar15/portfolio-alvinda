@@ -83,12 +83,14 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Website-Based Playstation Service Application",
+      name: "Company Profile AlvindaWebStudio",
       summary:
-        "Website-based Playstation repair or service application using Laravel, Bootstrap and MySQL",
+        "A Company Profile AlvindaWebStudio using Next.js and Tailwind CSS",
       linkPreview: "/",
-      linkSource: "https://github.com/Nandaakbar15/tugasakhir_laravel",
-      image: "/projects/Screenshot project Tugas Akhir.jpg",
+      linkSource:
+        "https://github.com/Nandaakbar15/company-profile-alvindawebstudio.git",
+      image:
+        "/projects/Screenshot Project Website Company profile AlvindaWebStudio.png",
     },
     {
       name: "Mini Job Tracker App",
@@ -108,28 +110,13 @@ export const SITE_CONTENT: SiteContent = {
       image: "/projects/Screenshot project Ps Go.png",
     },
     {
-      name: "Website-based Bookstore Application",
+      name: "Information system manages library",
       summary:
-        "Website-based bookstore application using React.js, Express.js and MySQL",
+        "Manages library web based Application using Laravel, Tailwind CSS and MySQL.",
       linkPreview: "/",
-      linkSource: "https://github.com/Nandaakbar15/website-tokobuku",
-      image: "/projects/Screenshot project Website Toko Buku.PNG",
-    },
-    {
-      name: "Aizawa Gamerstore",
-      summary:
-        "Simple E-commerce website selling consoles and games using React.js, Express.js and MySQL",
-      linkPreview: "/",
-      linkSource: "https://github.com/Nandaakbar15/aizawagamersniastore",
-      image: "/projects/Screenshot project website Aizawa gamerstore.PNG",
-    },
-    {
-      name: "Animeku Website",
-      summary:
-        "A personal anime list website using Express.js, Axios, and HTML templates to display anime lists by category.",
-      linkPreview: "/",
-      linkSource: "https://github.com/Nandaakbar15/AnimeKuWebsite",
-      image: "/projects/Screenshot project Animeku Website.PNG",
+      linkSource:
+        "https://github.com/Nandaakbar15/sistem-informasi-perpustakaan-berbasis-website.git",
+      image: "/projects/Screenshot Perpustakaan App.png",
     },
   ],
   about: {
