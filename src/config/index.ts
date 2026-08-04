@@ -86,7 +86,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "Company Profile AlvindaWebStudio",
       summary:
         "A Company Profile AlvindaWebStudio using Next.js and Tailwind CSS",
-      linkPreview: "/",
+      linkPreview: "https://alvindawebstudio.vercel.app/",
       linkSource:
         "https://github.com/Nandaakbar15/company-profile-alvindawebstudio.git",
       image:
