@@ -1,10 +1,10 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Al-Vinda Akbar Geannasech — Web Developer",
+  title: "Al-Vinda Akbar Geannasech — Backend Developer | Laravel & Node.js",
   author: "Al-Vinda Akbar Geannasech",
   description:
-    "Web Developer based in Indonesia. I specialize in web application development and maintenance.",
+    "Backend Developer based in Indonesia. I specialize in building RESTful APIs, managing databases, and developing reliable backend systems using Laravel, Express.js, and NestJS.",
   lang: "en",
   siteLogo: "/Foto Profil 2.png",
   navLinks: [
@@ -29,9 +29,9 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Al-Vinda Akbar Geannasech",
-    specialty: "Web Developer",
+    specialty: "Backend Developer",
     summary:
-      "Web Developer based in Indonesia. I specialize in web application development and maintenance.",
+      "Backend Developer based in Indonesia. I specialize in building RESTful APIs, managing databases, and developing reliable backend systems using Laravel, Express.js, and NestJS.",
     email: "alvindaakbar@gmail.com",
   },
   experience: [
@@ -41,9 +41,15 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Feb 2024",
       endDate: "Aug 2024",
       summary: [
-        "Developing REST APIs with NestJS and MongoDB database to support web and mobile applications.",
-        "Implement a secure and reliable API authentication system.",
-        "Collaborate with frontend team to complete new feature integration within specified time.",
+        "Developed RESTful APIs using NestJS and TypeScript to support web and mobile applications",
+
+        "Implemented authentication and authorization mechanisms using JWT.",
+
+        "Designed and managed MongoDB collections to support application data requirements",
+
+        "Implemented middleware, request validation, and error handling to improve API reliability",
+
+        "Collaborated with frontend developers to integrate backend services and application features",
       ],
     },
     {
@@ -53,31 +59,37 @@ export const SITE_CONTENT: SiteContent = {
       endDate: "Sep 2024",
       summary: [
         "Developing a company profile website application using Next.js",
-        "Create data structures for personnel/team data, and company portfolios using Typescript",
-        "Using Tailwind CSS for landing pages with a modern and user-friendly interface",
+        "Designed data structures to manage company personnel, team information, and portfolio content",
+        "Implemented responsive landing page interfaces using Tailwind CSS.",
       ],
     },
     {
       company: "PT. Moonlight Technology",
-      position: "Full Stack Web Developer - Internship",
+      position: "Web Developer - Internship",
       startDate: "July 2025",
       endDate: "Aug 2025",
       summary: [
         "Developing a company profile website application using Next.js",
-        "Create an admin dashboard and landing page for regular users with a modern and user-friendly interface with Tailwind CSS.",
-        "Using PostsGreSQL as a database to manage company data on the admin page",
+        "Built an admin dashboard and integrated frontend components with backend APIs.",
+        "Designed and managed PostgreSQL database structures to store company information",
+        "Implemented responsive user interfaces using Tailwind CSS.",
       ],
     },
     {
       company: "PT. Minilemon Technology",
-      position: "Full Stack Web Developer - Internship",
+      position: "Web Developer - Internship",
       startDate: "Sept 2025",
       endDate: "Feb 2026",
       summary: [
-        "Developing a REST API for an ROI calculator application using Express.js",
-        "Using MySQL as a database to store calculation data and calculator results",
-        "Developing a company profile website for the D'Topeng Kingdom Foundation Museum using React.js, Typescript, and Tailwind CSS",
-        "Create a landing page for regular users with a modern interface and create a mobile version display.",
+        "Developed RESTful APIs for an ROI Calculator application using Express.js and JavaScript.",
+
+        "Designed and managed MySQL database structures and relationships to store calculation data and results.",
+
+        "Implemented input validation and error handling to improve API reliability.",
+
+        "Tested API endpoints using Postman to ensure functionality and consistency.",
+
+        "Collaborated on developing a company profile website for the D'Topeng Kingdom Foundation Museum using React.js, TypeScript, and Tailwind CSS.",
       ],
     },
   ],
@@ -121,7 +133,13 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      I am a full-stack web developer with experience as an intern and freelancer. During my internship, I developed a Rest API using NestJS and a MongoDB database. As a freelancer, I developed a company website that handled contractor, personnel, and contractor data. I am passionate about building modern, scalable, and user-friendly websites and am ready to contribute to a team developing innovative technology solutions.
+      I am a Backend Developer with internship and freelance experience in developing RESTful APIs and web applications using Laravel, Express.js, and NestJS.
+
+      During my internships, I worked on API development, database management using MongoDB, MySQL, and PostgreSQL, authentication, and frontend-backend integration.
+
+      Through freelance and personal projects, I have also gained experience developing backend systems for inventory management, employee management, e-commerce, and business applications.
+
+      I enjoy solving technical problems, designing efficient backend systems, and building reliable applications. I am continuously improving my backend development skills and eager to contribute to a collaborative development team.
     `,
     image: "/Foto profil.jpg",
   },
